@@ -12,25 +12,6 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ninja Bar Delivery</title>
-
-    <script type="text/javascript">
-      (function (l) {
-        if (l.search[1] === "/") {
-          var decoded = l.search
-            .slice(1)
-            .split("&")
-            .map(function (s) {
-              return s.replace(/~and~/g, "&");
-            })
-            .join("?");
-          window.history.replaceState(
-            null,
-            null,
-            l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      })(window.location);
-    </script>
     <script type="module" crossorigin src="/delivery/assets/index-b4e6f14f.js"></script>
     <link rel="stylesheet" href="/delivery/assets/index-5b2fd3e9.css">
   </head>
