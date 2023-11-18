@@ -1,0 +1,47 @@
+@mixin style-button($fontSize: 1.4rem, $padding: 1.2rem 1.6rem) {
+  background-color: var(--color-main);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-gray);
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+
+  font-size: $fontSize;
+  padding: $padding;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@mixin style-input($width: 11.2rem, $border: none) {
+  border-radius: 9999px;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.4rem;
+  border: $border;
+  color: var(--color-gray);
+  width: $width;
+  transition: all 0.2s linear;
+
+  &:focus {
+    outline: 0.3rem solid #fed7aa;
+  }
+
+  &::placeholder {
+    opacity: 0.75;
+  }
+}
+
+@mixin style-anchor {
+  text-decoration: none;
+  color: #f97316;
+  font-size: 1.4rem;
+  transition: all 0.2s linear;
+
+  &:hover {
+    color: #c2410c;
+    text-decoration: underline;
+  }
+}

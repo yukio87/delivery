@@ -1,0 +1,14 @@
+.username {
+  display: none;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  span {
+    color: #78716c;
+  }
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}

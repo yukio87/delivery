@@ -1,0 +1,39 @@
+.orderContainer {
+  font-size: 1.4rem;
+  padding: 2.4rem 1.6rem;
+  font-weight: 600;
+  color: #78716c;
+
+  h2 {
+    color: #44403c;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .list {
+    list-style: none;
+  }
+
+  .box:not(:last-child),
+  .list {
+    margin-bottom: 3.2rem;
+  }
+
+  .box:nth-child(2) {
+    background-color: #e7e5e4;
+    padding: 2rem 2.4rem;
+  }
+
+  .box:last-child {
+    background-color: #e7e5e4;
+    padding: 2rem 2.4rem;
+
+    p:not(:last-child) {
+      margin-bottom: 0.8rem;
+    }
+
+    p:last-child {
+      color: #44403c;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../sass/main.scss";
+
+.button {
+  @include style-button($fontSize: 1.2rem, $padding: 0.8rem 1.6rem);
+
+  &:focus {
+    background-color: #fed7aa;
+    outline: 0.3rem solid #fed7aa;
+    outline-offset: 0.2rem;
+  }
+
+  &:hover {
+    background-color: #fed7aa;
+  }
+
+  @media (min-width: 768px) {
+    padding: 1rem 2rem;
+  }
+}

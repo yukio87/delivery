@@ -1,0 +1,14 @@
+@import "../../sass/main.scss";
+
+.input {
+  @include style-input();
+  background-color: #fff7ed;
+
+  @media (min-width: 640px) {
+    width: 25.6rem;
+
+    &:focus {
+      width: 28.8rem;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.item {
+  border-bottom: 1px solid #e7e5e4;
+  padding: 1.2rem 0;
+
+  .itemMainInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 0.4rem;
+
+    .quantity,
+    p:last-child {
+      color: var(--color-gray);
+    }
+  }
+
+  .ingredients {
+    font-style: italic;
+    font-weight: 400;
+    color: #78716c;
+  }
+}
+
+.item:first-child {
+  border-top: 1px solid #e7e5e4;
+}

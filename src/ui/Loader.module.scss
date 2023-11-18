@@ -1,0 +1,10 @@
+.loader {
+  color: var(--color-main);
+  font-size: 5rem;
+  font-weight: 600;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

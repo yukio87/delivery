@@ -1,0 +1,15 @@
+.layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100dvh;
+
+  .wrapper {
+    position: relative;
+    overflow: scroll;
+  }
+
+  main {
+    max-width: 76.8rem;
+    margin: 0 auto 0;
+  }
+}

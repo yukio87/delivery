@@ -1,0 +1,31 @@
+.item {
+  font-size: 1.6rem;
+  padding: 1.2rem 0;
+  border-bottom: 1px solid #e7e5e4;
+
+  @media (min-width: 640px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  p {
+    margin-bottom: 0.4rem;
+
+    @media (min-width: 640px) {
+      margin-bottom: 0;
+    }
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+    @media (min-width: 640px) {
+      gap: 2.4rem;
+    }
+  }
+}

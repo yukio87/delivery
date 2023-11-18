@@ -1,0 +1,55 @@
+@import "../../sass/main.scss";
+
+.form {
+  text-align: center;
+  font-size: 1.4rem;
+
+  svg {
+    width: 1.9rem;
+    height: 1.9rem;
+
+    @media (min-width: 768px) {
+      width: 2.1rem;
+      height: 2.1rem;
+    }
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1.6rem;
+  }
+
+  input {
+    @include style-input($width: 28.8rem);
+    margin-bottom: 3.2rem;
+
+    @media (min-width: 768px) {
+      padding: 1.2rem 2.4rem;
+    }
+  }
+
+  button {
+    @include style-button();
+
+    &:focus {
+      background-color: #fed7aa;
+      outline: 0.3rem solid #fed7aa;
+      outline-offset: 0.2rem;
+    }
+
+    &:hover {
+      background-color: #fed7aa;
+    }
+
+    @media (min-width: 768px) {
+      padding: 1.6rem 2.4rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1.6rem;
+  }
+}

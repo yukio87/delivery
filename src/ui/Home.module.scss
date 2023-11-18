@@ -1,0 +1,44 @@
+@import "../../src/sass/main.scss";
+
+.container {
+  padding: 0 1.6rem;
+  margin: 4rem 0;
+  text-align: center;
+
+  a {
+    @include style-button();
+    text-decoration: none;
+
+    &:focus {
+      background-color: #fed7aa;
+      outline: 0.3rem solid #fed7aa;
+      outline-offset: 0.2rem;
+    }
+
+    &:hover {
+      background-color: #fed7aa;
+    }
+
+    @media (min-width: 768px) {
+      padding: 1.6rem 2.4rem;
+    }
+  }
+
+  .header {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+
+    span {
+      color: var(--color-main);
+    }
+
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+
+  @media (min-width: 640px) {
+    margin: 6.4rem 0;
+  }
+}

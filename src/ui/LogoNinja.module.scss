@@ -1,0 +1,16 @@
+.svg {
+  display: none;
+
+  path {
+    fill: inherit;
+  }
+}
+
+.iconNinja {
+  width: 3.9rem;
+  height: 3.9rem;
+
+  .ic1 {
+    fill: var(--color-gray);
+  }
+}
