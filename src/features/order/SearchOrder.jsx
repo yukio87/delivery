@@ -10,7 +10,7 @@ function SearchOrder() {
   function handleSubmit(e) {
     e.preventDefault();
     if (!inputValue) return;
-    navigate(`/order/${inputValue}`);
+    navigate(`/delivery/order/${inputValue}`);
     setInputValue("");
   }
 

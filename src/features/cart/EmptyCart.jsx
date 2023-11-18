@@ -5,7 +5,7 @@ import styles from "./EmptyCart.module.scss";
 function EmptyCart() {
   return (
     <div className={styles.container}>
-      <Link to="/menu">&larr; Back to menu</Link>
+      <Link to="/delivery/menu">&larr; Back to menu</Link>
 
       <p>Your cart is still empty. Start adding some drinks 🙂</p>
     </div>

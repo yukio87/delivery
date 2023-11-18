@@ -20,7 +20,7 @@ function Cart() {
 
   return (
     <div className={styles.container}>
-      <Link to="/menu" className={styles.linkBack}>
+      <Link to="/delivery/menu" className={styles.linkBack}>
         &larr; Back to menu
       </Link>
 
@@ -32,7 +32,7 @@ function Cart() {
       </ul>
 
       <div>
-        <Link className={styles.linkOrder} to="/order/new">
+        <Link className={styles.linkOrder} to="/delivery/order/new">
           Order drinks
         </Link>
         <button onClick={handleClearCart} className={styles.button}>

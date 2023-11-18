@@ -18,7 +18,7 @@ function Header() {
 
   return (
     <header className={styles.header}>
-      <Link to="/">
+      <Link to="/delivery/">
         <LogoNinja />
         <div className={styles.logoText}>
           <span>Ninja bar</span>

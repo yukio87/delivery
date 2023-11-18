@@ -17,7 +17,7 @@ function Home() {
       </h1>
 
       {username ? (
-        <Link to="/menu" className={styles.button}>
+        <Link to="/delivery/menu" className={styles.button}>
           Continue ordering, {username}
         </Link>
       ) : (

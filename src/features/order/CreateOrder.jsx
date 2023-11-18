@@ -8,7 +8,7 @@ import { getUsername } from "../user/userSlice";
 import EmptyCart from "../cart/EmptyCart";
 import { LENGTH_ID } from "../../utils/constants";
 import { DELIVERY_PERCENTAGE } from "../../utils/constants";
-import { calculateDelivery, formatDeliveryTime } from "../../helpers";
+import { calculateDelivery, formatDeliveryTime } from "../../utils/helpers";
 import useCreateOrder from "./useCreateOrder";
 import Error from "../../ui/Error";
 import styles from "./CreateOrder.module.scss";
@@ -42,7 +42,7 @@ function CreateOrder() {
     };
 
     mutate(order, {
-      onSuccess: (data) => navigate(`/order/${data[0].numOrder}`),
+      onSuccess: (data) => navigate(`/delivery/order/${data[0].numOrder}`),
     });
   }
 

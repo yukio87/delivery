@@ -16,7 +16,7 @@ function CartOverview() {
         <span>{totalCartQuantity} drinks</span>
         <span>{totalCartPrice}&#8381;</span>
       </p>
-      <Link to="/cart">Open cart &rarr;</Link>
+      <Link to="/delivery/cart">Open cart &rarr;</Link>
     </div>
   );
 }

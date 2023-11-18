@@ -21,28 +21,29 @@ const queryClient = new QueryClient({
 
 const router = createBrowserRouter([
   {
+    path: "/delivery/",
     element: <AppLayout />,
     errorElement: <Error />,
 
     children: [
       {
-        path: "/",
+        path: "/delivery/",
         element: <Home />,
       },
       {
-        path: "/menu",
+        path: "/delivery/menu",
         element: <Menu />,
       },
       {
-        path: "/cart",
+        path: "/delivery/cart",
         element: <Cart />,
       },
       {
-        path: "/order/new",
+        path: "/delivery/order/new",
         element: <CreateOrder />,
       },
       {
-        path: "/order/:orderId",
+        path: "/delivery/order/:orderId",
         element: <Order />,
       },
     ],
