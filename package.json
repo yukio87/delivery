@@ -1,5 +1,5 @@
 {
-  "name": "delivery",
+  "name": "order",
   "private": true,
   "version": "0.0.0",
   "type": "module",
