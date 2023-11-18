@@ -1,0 +1,1 @@
+import{j as t,L as n}from"./index-822f1e8b.js";const r="_container_1r8dt_31",s={container:r};function i(){return t.jsxs("div",{className:s.container,children:[t.jsx(n,{to:"/menu",children:"← Back to menu"}),t.jsx("p",{children:"Your cart is still empty. Start adding some drinks 🙂"})]})}export{i as E};
